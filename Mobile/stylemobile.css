@@ -1,0 +1,154 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+html {font-size: 62.5%;}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    color: #393d41;
+    padding: 15px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+main {
+    box-sizing: border-box;
+}
+ h1, h2 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+ }
+h1 {
+    text-align: center;
+    padding: 5%;
+    font-size: 4em;
+}
+h2 {
+    text-align: center;
+    font-size: 2.6em;
+    padding: 5%;
+}
+
+ footer {
+    color: #c8e7f0;
+    box-sizing: border-box;
+ }
+header {
+    box-sizing: border-box;
+}
+ .logo  {
+    text-align: center;
+    background-color: black;
+    padding: 5%;
+ }
+ .header {
+    background-image: url(../Mobile/assets/images/banner.jpg);
+ } 
+ p {
+    font-size: 2.2em;
+    text-align: center;
+ }
+ #partiamo {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+ height: 4rem;
+ width: 140px;
+ background-color: #f04c2f  ;
+ text-align: center;
+ margin-left: 175px;
+ margin-right: 200px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+ box-sizing: border-box;
+ border-radius: 10%;
+ border: none;
+ color: white;
+
+ }
+
+
+ .content-first >img {
+    border-radius: 100%;
+    width: 400px;
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+ .red-box {
+    background-color:  #e22d0e;
+ }
+ .red-box > h1 {
+    color: white;
+    font-size: 3.5em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+ }
+ .red-box > p {
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+ }
+ .red-box > p + p {
+  padding-bottom: 10%;
+ }
+
+ .content-second img {
+    width: 100%;
+  
+ }
+ 
+ .first-box, .second-box, .third-box {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #dee1e3;
+    border-left: 1px solid #dee1e3;
+    border-right: 1px solid #dee1e3;
+ }
+
+
+
+ .first-box, .second-box, .third-box > p {
+    font-size: 10px;
+    line-height: 1.5;
+    padding-bottom: 10%;
+ }
+ /* non so perchè mettendo em il p nella third box ha un valore diverso delle altre */
+ .third-box > p {
+    font-size: 22px;
+ }
+
+
+
+ /*FOOTER CONTENT*/ 
+ .blue-box {
+    background-color: 25a2c3;
+ }
+ .blue-box h2 {
+    color: white;
+    font-size: 3em;
+ }
+ .blue-box p {
+    font-size: 17px;
+    line-height: 2;
+ }
+i {
+    font-size: 20px;
+    color: white;
+}
+.blue-box a {
+    color: white;
+
+}
+
+hr {
+    width: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.copy {
+   padding-bottom: 10%;
+
+}
